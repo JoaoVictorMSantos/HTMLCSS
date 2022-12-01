@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="sca">
+            SCA - Sistema de Controle Acadêmico
+        </div>
+
+        <nav class="navegacao">
+            <ul>
+                <li><input type="search" placeholder="Pesquisar..."></li>
+                <li>Configuraçõs</li>
+                <li>Perfil</li>
+                <li>Ajuda</li>
+            </ul>
+            
+        </nav>
+    </header>
+    <div class="menulateral">
+        <div class="opcoes_menu_lateral">
+            <a href="#">Inicio</a>
+            <a href="#">Formulário</a>
+             <a href="#">Contato</a>
+        </div>
+    </div>
+    <div class="main00">
+        <div class="titulos">
+            <h1>Cadastro de alunos</h1>
+            <p>Dados do aluno</p>
+        </div>
+    </div>
+    <main>
+       <div class="container">
+            <div class="topicos">
+                <div class="t1"><label for="Prontuário">Prontuário:<input placeholder="Prontuário" type="text"></label></div>
+                <div class="t2"><label for="Nome">Nome:<input type="text" placeholder="Nome...">  </label>
+                                <label for="CPF:">CPF:<input placeholder="CPF" type="number"></label>
+                                <label for="RG:">RG:<input placeholder="RG" type="number"> </label>
+                
+                </div> 
+                <div class="t3"><label for="Data Nacimento">Data Nacimento: <input type="date"></label>
+                                <label for="Sexo:">Sexo:</label> <select name="estadocivil"  id="estadocivil">
+                                    <option value="Selecione">Selecione</option>
+                                    <option value="Feminino">Feminino</option>
+                                    <option value="Mascolino">Mascolino</option>
+                                </select>
+                                <label for="TELEFONE:">Telefone: <input placeholder="(00)90000-0000" type="number"></label>
+                                <label for="Celular:">Celular: <input placeholder="(00)90000-0000" type="number"></label>
+                
+                
+                </div>
+                <div class="t4"><label for="Curso">Curso:<input placeholder="Ex: Sistemas para Internet" type="text"></label>
+                                <label for="E-mail:"> E-mail:<input type="email" required placeholder="Ex: name@hotmail.com" ></label></div>    
+            </div>
+        </div>     
+    </main>
+    <div class="titulos">
+        <p>Dados do responsvel</p>
+    </div>
+    <div class="main2">
+        <div class="container">
+            <div class="topicos">
+                <div class="t1"><label for="Nome do responsavel">Nome do responsavel: <input type="text" placeholder="Ex: João Monteverde...." > </label>
+                <label for="CPF">CPF: <input type="number" placeholder="CPF do responsavel"></label>
+                <label for="RG">RF: <input type="number" placeholder="RG do responsavel"></label></div>
+                <div class="t2"><label for="DataNacimento">Data de Nacimento: <input type="date"></label>
+                                <label for="Estado">Estado:</label> <select name="Estado" id="Estado">
+                                    <option value="Selecione">Selecione</option>
+                                    <option value="PR">PR</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="MT">MT</option>
+                                    <option value="SP">SP</option>
+                                    <option value="OUTRO">OUTRO</option>
+                                </select>
+                                <label for="Cidade">Cidade: <input type="text" placeholder="Cidade"></label> </div>
+                <div class="t3"><label for="Rua ou Avenida">Rua ou Avenida: <input type="text" placeholder="Nome da rua ou Av."></label>
+                                <label for="CEP">CEP: <input type="number" placeholder="CEP"></label>
+                                <label for="Telefone">Telefone: <input type="number" placeholder="(00)90000-0000"></label><div>                   
+        </div>
+    </div>
+    <div class="botauns">
+        <button id="botaoazul"><a href="#">Enviar</a></button>
+        <button id="botaomarelo"><a href="#">Limpar</a></button>
+    </div>
+
+
+</body>
+</html>

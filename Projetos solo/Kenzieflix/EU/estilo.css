@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414;
+    color: white;
+    
+}
+.cabecalho{
+    padding: 20px;
+    background-color: #141414;
+}
+.coutainer{
+    max-width: 1200px; /*Largura maxima*/
+    min-width: 1169px;
+    margin: 0 auto;/*Centralizar*/
+}
+.logo{
+    display: flex;
+    
+    
+}
+/*Lista do menu de naveção em duas partes*/
+.listamenu{
+    margin: -1.6% 13%;
+    float: left;
+}
+.listamenu2{
+    margin: -2%;
+    max-width: 1200px;
+    float: right;
+    display: block;
+    
+}
+.listamenu, .listamenu2{
+    display: flex;
+    text-decoration: none;
+    list-style: none; /*Tirar Bolinahs Chatas da frente*/
+}
+
+.listamenu a, .listamenu2 a{
+    text-decoration: none;
+    padding: 9px ;
+    color: white;
+    font-size: 0.9rem;
+}
+.listamenu2 img {
+    margin: auto 10px;
+    vertical-align: middle;
+    
+
+}
+/*IMAGEM DO DESTAQUE*/
+.destaque{
+    background-image: url(img/destaque.png);
+    height: 780px;
+    background-position: center; /*Centralizar a imagem de fonto no meio*/
+    background-repeat: no-repeat; /*Não repedir a imagem de fundo*/
+    background-size: cover; /*Da um zum na imagen de fundo*/
+}
+.textodestaque{
+   padding: 155px 0  ;
+}
+.textodestaque img {
+    max-width: 410px;
+}
+.textodestaque p {
+    display: block;
+    max-width: 391px;
+    font-size: 1.3rem;
+    padding: 14px 0;
+}
+.botaodestaque{
+    padding: 14px 0;
+    padding-bottom: 161px;
+}
+.botaodestaque a {
+    margin: 25px 0px;
+    padding: 18px 37px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+   
+}
+.botaodestaque img{
+    vertical-align: middle;  /*Alinhas a imagem com o texto */
+    margin-right: 16px;
+}
+.botaodestaque .botaodestaquetrasparente{
+    background-color: rgb(255 255 255 / 30%);
+    margin-left: 0;
+    color: white;
+    
+}
+#h2doemalt{
+    font-size: 1.7rem;
+}
+
+.listasdefilme{
+    display: flex;
+    overflow-x: scroll; /*Comando para fazer a barra lateral*/
+    margin-top: 10px;
+    margin-bottom: 50px;  
+}
+.listasdefilme li {
+    margin-right: 10px;
+}
+
+.h2sd{
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+/*RODA PÉ*/
+.redesSociais{
+    display: block;
+    display: flex;
+    margin-top: 2100px;
+}
+
+.redesSociais a{
+ margin-right: 8px;    
+}
+
+.navrodape a{
+    
+}
+
+.navrodape{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navrodape ul li {
+    margin-top: 20px;
+}
+
+.navrodape ul li a{
+    color: #808080;
+}
+
+.botao{
+    border: solid #808080 1px;
+    margin-top: 50px;
+    padding: 9px 15px;
+    max-width: 126px;
+    
+
+}
+.botao a{
+    color: #808080;
+
+}
+#finalp{
+    color: #808080;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 976px) {
+    .listamenu, .listamenu2{
+        display: none;
+    }   
+    .logo img{
+        margin: 0 auto;
+
+    }
+    .listasdefilme{
+        max-width: 710px;
+
+    }
+    .coutainer{
+        margin: 0 20px;
+        min-width: 463px;
+    }
+
+}

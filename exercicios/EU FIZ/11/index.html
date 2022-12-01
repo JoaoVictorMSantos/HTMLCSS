@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor expêriencia <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+            <img src="foto-g.png" alt="A imagem flexivel funciona">
+        </picture>
+        <h1>Reproduzindo Áudio</h1>
+        <p>Vamo aprender a reproduzir áudio em html5</p>
+        <audio preload="metadata" controls autoplay loop>
+            <source src="Fiduma e Jeca - Puxado no R.mp3" type="audio/mpeg">
+            <p> Seu navegador não suporta o audio 
+            <a href="Fiduma e Jeca - Puxado no R.mp3" download="Fiduma e Jeca - Puxando no R.mp3" type="audio/mpeg"></a></p>
+        </audio>
+    
+</body>
+</html>

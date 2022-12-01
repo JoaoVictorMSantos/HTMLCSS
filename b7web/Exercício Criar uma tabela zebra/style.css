@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+}
+
+tbody tr:nth-child(odd){ /*EVEN  são as linhas pares ODD são para os inpares*/
+    background-color: aqua;
+}
+
+thead tr {
+    background-color: rgba(128, 128, 128, 0.377);
+}

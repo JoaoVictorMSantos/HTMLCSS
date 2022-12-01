@@ -1,0 +1,237 @@
+.headercaixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 3;
+   
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imggoogle{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex: 0;
+    width: 92px;
+    height: 33px;
+    
+}
+
+.buscabox{
+   display: flex;
+   width: 670px;
+   height: 44px;
+   align-items: center;
+   border: 1px solid black;
+   border-radius: 30px;
+   padding-left: 14px;
+   flex: 0;
+   
+}
+
+.busca{
+    width: 542px;
+    height: 39px;
+}
+
+.busca input{
+    width: 540px;
+    height: 34px;
+    background-color: transparent;
+    border: none;
+}
+
+.opcoesmenu{
+    display: flex;
+}
+
+.opcoesmenubox{
+    display: flex;
+}
+
+.itens{
+    width: 24px;
+    height: 24px;
+    padding: 0 8px;
+}
+
+.opcoes{
+    display: flex;
+    flex: 3;
+}
+
+.opcoesbox{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.opcoesboxflex{
+    display: flex;
+    
+}
+
+.opcoesbox ul{
+    display: flex;
+    float: right;
+ 
+}
+
+.opcoesbox li{
+    list-style: none;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.svgopcoes{
+    width: 24px;
+    height: 24px;
+}
+
+.svgopcoesimg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/*-----itensmuneo-----*/
+.svgitensmenu{
+    width: 16px;
+    height: 16px;
+}
+
+.itensheaderbox{
+    margin-left: 100px;
+
+}
+
+.itensheader{
+    display: flex;
+    
+}
+
+.itensheader ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.itensheader ul li{
+    padding:0px 12px 11px 10px;
+    align-items: center;
+    display: flex;
+}
+
+.itensheader ul li svg{
+    padding-right: 5px;
+}
+
+.informacoesbox{
+    border-top: 1px solid black;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.informacoes{
+    margin-left: 148px;
+    color: #9AA0A6;
+    font-size: 14px;
+}
+
+/*--MAIN--*/
+
+.container{
+    margin-left: 148px;
+    width: 652px;
+}
+
+.main_conteudo h3{
+    margin: 0;
+}
+
+.main_conteudo h3 a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#5b95f3;
+    font-size: 20px;
+}
+
+.main_conteudo h3 a:hover{
+    text-decoration: underline;
+}
+
+.endereco{
+    color: #858585;
+    font-size: 14px;
+}
+
+.main_conteudo{
+    margin-bottom: 30px;
+}
+
+.main_nav_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_nav ul{
+    display: flex;
+    margin: 0;
+}
+.main_nav ul li{
+    list-style: none;
+    color:#5b95f3;
+    padding-left: 10px;
+}
+
+
+#mais{
+    color:#5b95f3;
+    margin-left: 20px;
+}
+/*FOOTER*/
+
+.foot_localizacao_box{
+    display: flex;
+    
+}
+
+.foot_pais{
+    font-size: 15px;
+    color: #858585;
+    border-right: solid 1px;
+    padding: 10px;
+}
+
+.foot_localizacao{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.foot_localizacao a {
+    color: #48A1FF;
+    text-decoration: none;
+}
+
+.borda_foot{
+    border-bottom: 1px solid #858585;
+}
+
+
+.info_foot ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.info_foot ul li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #858585;
+}

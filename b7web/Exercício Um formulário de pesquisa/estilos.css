@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #1e1e1e;
+    align-items: center;
+}
+
+.sca{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.842);
+    margin-left: 20px;
+    
+}
+
+.navegacao{
+    display: flex;
+    
+}
+
+.navegacao input:checked{
+    border: 3px red solid;
+}
+
+.navegacao ul {
+    display: flex;
+    color: rgba(255, 255, 255, 0.555);
+    
+
+}
+
+.navegacao ul li{
+    padding: 20px;
+    list-style: none;
+}
+
+.menulateral{
+    background-color: rgba(128, 128, 128, 0.178);
+    display: flex;
+    float: left;
+    width: 20%;
+    height: 887px;
+}
+
+main{
+   /* background-color: green;*/
+    display: flex;
+    float: right;
+    width: 80%;
+}
+
+.opcoes_menu_lateral{
+    display: flex;
+    flex-direction: column;
+    width: 201px;
+}
+
+.opcoes_menu_lateral a{
+    text-decoration: none;
+    padding: 25px;
+    color: #0079c7;
+    width: 166%;
+}
+
+.opcoes_menu_lateral a:hover{
+    background-color:#0079c7;
+    color: white;
+}
+
+/*---------------- main--------------------*/
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.titulos p{
+    padding-top: 15px;
+    font-size: 24px;
+    color: gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    font-size: 17px;
+}
+
+.topicos{
+    font-weight: bolder;
+}
+
+.t1,.t2,.t3,.t4{
+    margin-bottom: 10px;
+}
+
+.t1,.t2,.t3,.t4, input{
+    margin-left: 20px;
+    padding: 3px;
+}
+
+.t1,.t2,.t3,.t4, label{
+    margin-left: 20px;
+
+}
+/*-----------------2----------------------*/
+.main2{
+    display: flex;
+    float: right;
+    width: 80%;
+}
+
+/*----------------------------*/
+
+.botauns{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+.botauns a{ 
+    text-decoration: none;
+    color: white;
+}
+
+#botaoazul{
+    padding: 5px 15px 5px 15px;
+    background-color: #0079c7;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+#botaomarelo{
+    padding: 5px 15px 5px 15px;
+    background-color: rgba(255, 166, 0, 0.76);
+    margin-right: 50px;
+    border-radius: 5px;
+}

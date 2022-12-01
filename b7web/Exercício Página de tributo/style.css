@@ -1,0 +1,183 @@
+
+
+:root{
+    --cinza1: #D0D3D9;
+    --marelo2: #F2E85E;
+    --marelocralo: #F2EA79;
+    --marelo3: #F2EA79;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to top, #F2E85E, #F2E85E );
+    margin: 0;
+  
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: auto;
+    
+    
+}
+
+.linhas{
+ border-bottom: 3px solid var(--marelocralo);
+ background-color: var(--marelo2);
+ padding-top: 1px;
+}
+
+header h1{
+   font-weight: bolder;
+   text-align: center;
+   
+}
+
+.container h3{
+    text-align: center; 
+    
+}
+
+.container{
+    background-color: var(--cinza1);
+    width: 80%;
+    height: auto;
+    border: 4px solid var(--marelo2);
+    
+    
+    
+}
+    .colum{
+        flex-direction: column;
+        display: flex;
+    }
+
+
+article{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.imagem{
+   margin: 20px;
+       
+}
+
+
+
+.imagem picture{
+    background-color: white;
+    padding-top: 10px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+picture{
+    width: 264px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.description{
+    display: flex;
+    justify-content: center;
+    max-width: 18%;
+    text-align: justify;
+    flex-wrap: wrap;
+    background-color: white;
+    font-size: 94%;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.description p{
+  padding: 0px 18px 0px 18px;
+}
+
+
+.des2{
+    display: flex;
+    justify-content: center;
+    margin: 0px 16px -15px 16px;
+}
+
+.description a{
+    text-decoration: none;
+    text-align: justify;
+    flex-wrap: wrap;
+    
+}
+
+.texto p {
+    line-height: 27px;
+    text-align: justify;
+    padding: 0px 18px 0px 18px ;
+    font-size: 17px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+ .direitos{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--marelo2);
+}
+
+@media (max-width:1024px){
+    picture img{
+        width: 100%;
+        height: 100%;
+        max-width: 222px;
+        max-height: 222px;
+        border: 5px solid white;
+        
+    }
+
+}
+
+    @media (max-width:1285px){
+        .description{
+            max-width: 264px;
+     
+         }
+    }
+
+    @media (max-width:428px){
+        .description{
+            max-width: 428px;
+         }
+
+    }
+
+    @media (max-width:344px){
+        .imagem picture{
+            padding: 0px;
+        }
+    }
+
+
+
+
+
+
+
+    

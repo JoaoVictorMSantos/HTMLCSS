@@ -1,0 +1,99 @@
+body{
+    margin: 30px;
+}
+
+body h1 {
+    border-bottom: 2px solid gray;
+}
+
+body h3 {
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    background-color: gainsboro;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.opcoes_menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+.opcoes_menu a {
+    text-decoration: none;
+    padding: 30px;
+    color: #0079c7;
+    width: 100%;
+    
+}
+
+.opcoes_menu a:hover{
+    background-color: #0079c7;
+    color: white;
+    
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    
+    width: 80%;
+    float: right;
+}
+
+.dados_par11{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados_par11,.dados_par12 {
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.dados_par12{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.dadosflex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.dadosflex label{
+    margin: 10px;
+}
+
+.dadosflex2{
+    display: flex;
+    flex-direction: column;
+}
+
+.dadosflex2 label{
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.dadosflex2 input{
+    margin-left: 5px;
+   
+}

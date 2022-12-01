@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:'metropolis' ;
+    src: url('Metropolis-Regular.otf') format('opentype');
+    /*
+    opentype: otf
+    truetype: ttf*/
+    
+}
+
+body{
+    font-family: 'metropolis';
+    color: white;
+    font-size: 16px;
+  
+}
+
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    
+    width: 74%;
+    margin: auto;
+
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+
+.navname{
+
+    font-size: 1.2rem;
+    
+}
+
+.opcoesnav ul{
+    display: flex;
+
+}
+
+.opcoesnav ul li{
+    list-style: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 1.5rem;
+    align-items: center;
+    display: flex;
+}
+.opcoesnav ul li a {
+    color: rgba(255, 255, 255, 0.55);
+ 
+}
+
+.opcoesnav ul li a:hover{
+    color: white;
+}
+
+#botao{
+    background-color: #00ba94;
+    color: white;
+    border: 1px solid #00ba94;
+    padding: 14px 18px;
+    margin-left: 18px;
+    display: flex;
+    float: left;
+    border-radius: 7px;
+}
+
+/*-------------------Body------------------------*/
+
+.main_color{
+    background-color: #0061f2 ;
+    background-image:linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+    padding-bottom: 8rem;
+    position: relative;
+   
+}
+
+.main_text_photo{
+    padding-top: 90px;
+    display: flex;
+    flex: 2;
+    align-items: center;
+}
+
+.main_text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main_text h1{
+    padding-bottom: 8px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    height: 96px;
+    width: 660px;
+}
+
+.main_text p {
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18.4px;
+   
+    height: 55.22px;
+    width: 660px;
+}
+
+.main_photo {
+    display: flex;
+    flex: 1;
+}
+
+.main_img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main_text_botao{
+    display: flex;
+    align-items: center;
+    
+}
+.botao1{
+    align-items: center;
+    display: flex;
+}
+.botao1 button{
+    color: white;
+    background-color: #00ba94;
+    border:1px solid #00ba94;
+    padding: 14px 18px;
+    border-radius: 7px;
+    width: 137px;
+    height: 44px;
+    margin-right: 8px;
+}
+
+.botao2 a{
+    width: 115px;
+    height: 44px;
+    color: white;
+    font-size: 14px;
+    padding:14px 18px;
+}
+
+.waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+}
+
+.svg_backgrand{
+    background-image:linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+    color: white;
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    padding: 28px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.figuras{
+    padding-top: 96px;
+    display: flex;
+    flex: 3;
+    
+}
+
+.figuras h3{
+    font-size: 1.3rem;
+    color: #363d47;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.figuras p{
+    font-size: 16px;
+    color: #69707A;
+    margin-top: 8px;
+    line-height: 22px;
+    
+}
+
+.fig1{
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    padding: 0 12px;
+    height: 361.33px;
+    width: 208.95px;
+    
+}
+
+.fig2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 12px;
+    height: 361.33px;
+    width: 208.95px;
+}
+
+.fig3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 12px;
+    height: 361.33px;
+    width: 208.95px;
+}
